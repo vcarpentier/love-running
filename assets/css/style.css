@@ -130,3 +130,11 @@ nav {
         margin-top: 79px;
     }
 }
+
+/* Media query for latop and larger (>992 px) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+     
+}
