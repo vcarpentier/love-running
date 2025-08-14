@@ -35,7 +35,40 @@
         </nav>
     </header>
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
+                <h2><i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="text" name="email-address" id="email-address" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <input type="radio" name="running-preference" id="road" value="road" required checked>
+                        <label for="road" class="road-label">Road</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="running-preference" id="trail" value="trail" required checked>
+                        <label for="trail" class="trail-label">Trail</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="running-preference" id="both" value="both" required checked>
+                        <label for="both" class="both-label">Both</label>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Join!</button>
+
+
+            </form>
+
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
@@ -49,7 +82,8 @@
                     aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit our instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
 
         </ul>
